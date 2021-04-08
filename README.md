@@ -36,7 +36,7 @@ Method for ubuntu bionic 18.04 for installing docker and docker-compose <br>
 2.  cd kafka-docker-compose-NI <br>
 3.  sed -i "s/x.x.x.x/your_host_ip/g" docker-compose.yml  e.g.  sed -i "s/x.x.x.x/10.10.10.100/g" docker-compose.yml <br>
 4.  docker-compose up --build -d   (or docker-compose build  then docker-compose up -d) <br>
-5.  do a docker ps to make sure that sm-kafka and zookeeper is up <br>
+5.  do a docker ps to make sure that sm-kafka and sm-zookeeper is up <br>
 6.  execute this script    ./copy_kafka-from-container.sh <br>
 7.  cd ACI-Consumer <br>
 8.  create the topic test-topic  by running script ./createTopic.sh <br>
