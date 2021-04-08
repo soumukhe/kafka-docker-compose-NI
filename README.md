@@ -23,9 +23,6 @@ Method for ubuntu bionic 18.04 for installing docker and docker-compose <br>
     Exit out of session and ssh back in: 
 
       "sudo apt install docker-compose -y"
-      "sudo apt install freeradius-utils -y" 
-      "git clone https://github.com/soumukhe/aciCloudABC-FreeRadius.git" 
-      "cd aciCloudABC-FreeRadius" 
       "docker-compose up --build -d" 
 
        
