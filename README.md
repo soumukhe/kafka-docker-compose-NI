@@ -23,7 +23,7 @@ Method for ubuntu bionic 18.04 for installing docker and docker-compose <br>
     Exit out of session and ssh back in: 
 
       "sudo apt install docker-compose -y"
-      "docker-compose up --build -d" 
+
 
        
 
