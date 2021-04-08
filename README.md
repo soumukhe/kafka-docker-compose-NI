@@ -4,29 +4,29 @@
 # Prerequisites: <br>
 Make sure that docker and docker-compose are installed: <br>
 
-Method for ubuntu bionic 18.04 <br>
+Method for ubuntu bionic 18.04 for installing docker and docker-compose <br>
 
-      "sudo apt update -y" <br>
-      "sudo apt upgrade -y" <br>
-      "sudo echo net.ipv4.ip_forward=1 >> /etc/sysctl.conf" <br>
-      "sudo sysctl  -p" <br>
-      "sudo sysctl --system" <br>
+      "sudo apt update -y" 
+      "sudo apt upgrade -y" 
+      "sudo echo net.ipv4.ip_forward=1 >> /etc/sysctl.conf" 
+      "sudo sysctl  -p" 
+      "sudo sysctl --system" 
 
-     Exit out of session and ssh back in: <br>
+     Exit out of session and ssh back in: 
 
 
-      "sudo apt install docker.io -y" <br>
-      "sudo systemctl start docker" <br>
-      "sudo systemctl enable docker" <br>
-      "sudo usermod -aG docker $USER <br>
+      "sudo apt install docker.io -y" 
+      "sudo systemctl start docker" 
+      "sudo systemctl enable docker" 
+      "sudo usermod -aG docker $USER 
 
-    Exit out of session and ssh back in: <br>
+    Exit out of session and ssh back in: 
 
-      "sudo apt install docker-compose -y" <br>
-      "sudo apt install freeradius-utils -y" <br>
-      "git clone https://github.com/soumukhe/aciCloudABC-FreeRadius.git" <br>
-      "cd aciCloudABC-FreeRadius" <br>
-      "docker-compose up --build -d" <br>
+      "sudo apt install docker-compose -y"
+      "sudo apt install freeradius-utils -y" 
+      "git clone https://github.com/soumukhe/aciCloudABC-FreeRadius.git" 
+      "cd aciCloudABC-FreeRadius" 
+      "docker-compose up --build -d" 
 
        
 
