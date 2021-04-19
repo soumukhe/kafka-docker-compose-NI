@@ -34,7 +34,7 @@ Method for ubuntu bionic 18.04 for installing docker and docker-compose <br>
 
 1.  cd to some directory in your ubuntu or local mac, then clone the repo.  git clone https://github.com/soumukhe/kafka-docker-compose-NI.git <br>
 2.  cd kafka-docker-compose-NI <br>
-3.  sed -i "s/x.x.x.x/your_host_ip/g" docker-compose.yml  e.g.  sed -i "s/x.x.x.x/10.10.10.100/g" docker-compose.yml 
+3.  do a "ip a" on ubuntu box to find your host ip.   then run the script  "changeHostIP.sh your_host_ip"
 4.  docker-compose up --build -d   (or docker-compose build  then docker-compose up -d) <br>
 5.  do a docker ps to make sure that sm-kafka and sm-zookeeper is up 
 6.  execute this script    ./copy_kafka-from-container.sh 
