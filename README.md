@@ -42,7 +42,10 @@ Method for ubuntu bionic 18.04 for installing docker and docker-compose <br>
 8.  a topic called test-topic already exists.  If you want to make a new topic create the topic by executing script    ./createTopic.sh  my_topic_name   (where my_topic_name is a name of your choosing) 
 9.  start kafka consumer by executing script   ./startConsumer.sh 
 10. now configure NI to export data to Topic Name:  test-topic on base_machine_host:9092 
-11. You can also open another terminal to base machine go the the ACI-Consumer directory and  execute ./startProducer.sh  and then type in any message like hello, consumer terminal should see the message <br>
+11. You can also open another terminal to base machine go the the ACI-Consumer directory and  execute ./startProducer.sh  and then type in any message like hello, consumer terminal should see the message
+12. To stop all containers related to kafka (zookeeper and kafka), make sure you are in the kafka-docker-compose-NI directory and then executue docker-compose down
+
+ <br>
 
 
 
