@@ -32,7 +32,7 @@ Method for ubuntu bionic 18.04 for installing docker and docker-compose <br>
 
 # Once docker and docker-compose are installed, just do the below: <br>
 
-1.  cd to your home directory,  then clone this repo there <br>
+1.  cd to some directory in your ubuntu or local mac, then clone the repo.  git clone https://github.com/soumukhe/kafka-docker-compose-NI.git <br>
 2.  cd kafka-docker-compose-NI <br>
 3.  sed -i "s/x.x.x.x/your_host_ip/g" docker-compose.yml  e.g.  sed -i "s/x.x.x.x/10.10.10.100/g" docker-compose.yml 
 4.  docker-compose up --build -d   (or docker-compose build  then docker-compose up -d) <br>
