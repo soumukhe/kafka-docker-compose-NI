@@ -1,2 +1,4 @@
 #!/bin/bash
-~/kafka-docker-compose-NI/kafka_2.13-2.7.0/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create  --topic test-topic --replication-factor 1 --partitions 3
+cd ..
+
+$(pwd)/kafka_2.13-2.7.0/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create  --topic test-topic --replication-factor 1 --partitions 3
